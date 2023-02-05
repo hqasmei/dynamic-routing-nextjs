@@ -12,11 +12,11 @@ const Navbar = () => {
       <div className="justify-between md:flex md:items-center">
         <div>
           <div className="flex items-center justify-between py-3 md:block ">
-            <a href="/">
+            <Link href="/">
               <div className="container flex items-center space-x-2">
                 <h2 className="text-2xl font-bold">Logo</h2>
               </div>
-            </a>
+            </Link>
             <div className="md:hidden">
               <button
                 className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400"

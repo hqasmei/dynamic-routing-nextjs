@@ -1,8 +1,7 @@
-
 export default function Home() {
   return (
-    <main className="flex h-screen items-center justify-center">
-      <h1 className="font-bold text-6xl">Home</h1>
+    <main className="p-8 flex h-screen md:py-16 md:px-48">
+      <h1 className="text-6xl font-bold">Home</h1>
     </main>
   )
 }
